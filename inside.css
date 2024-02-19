@@ -1,0 +1,166 @@
+.card-inside:before {
+    content:"";
+    position: absolute;
+    width: 180px;
+    height: 280px;
+    background-color: #c94038;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .title {
+    position: absolute;
+    color: #333;
+    font-size:40px;
+    font-family: brush script mt;
+    line-height: 25px;
+    text-align: center;
+    top:30px;
+    width:200px;
+  }
+  
+  .wishes {
+    position: absolute;
+    width: 150px;
+    text-align: center;
+    font-family: brush script mt;
+    line-height:24px;
+    font-size: 24px;
+    color: black;
+    height: 300px;
+    top: 31%;
+    left:25px;
+  }
+  
+  .gift {
+    position: absolute;
+    border: 3px solid #333;
+    width:30px;
+    height: 30px;
+    top: 235px;
+    left:83px;
+  }
+  
+  .gift:before, .gift:after {
+    content:"";
+    position: absolute;
+    background-color: #333;
+  }
+  .gift2 {
+    position: absolute;
+    border: 3px solid #333;
+    width:30px;
+    height: 30px;
+    top: 235px;
+    left:40px;
+  }
+  .gift2:before, .gift2:after {
+    content:"";
+    position: absolute;
+    background-color: green;
+  }
+  .gift2:before {
+    width:30px;
+    height:3px;
+    top:14px;
+  }
+  
+  .gift2:after {
+    height:30px;
+    width:3px;
+    left: 14px;
+  }
+  .gift3 {
+    position: absolute;
+    border: 3px solid #333;
+    width:30px;
+    height: 30px;
+    top: 235px;
+    left:123px;
+  }
+  .gift3:before, .gift3:after {
+    content:"";
+    position: absolute;
+    background-color: yellow;
+  }
+  .gift3:before {
+    width:30px;
+    height:3px;
+    top:14px;
+  }
+  
+  .gift3:after {
+    height:30px;
+    width:3px;
+    left: 14px;
+  }
+  
+  .bow {
+    position: absolute;
+  }
+  
+  .bow:before, .bow:after {
+    content:"";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 3px solid #333;
+    border-radius:50%;
+    top:-14px;
+  }
+  
+  .bow:before {
+    transform: skew(20deg, 10deg);
+    left:2px;
+  }
+  
+  .bow:after {
+    transform: skew(-20deg,-10deg);
+    left:15px;
+  }
+  .bow2 {
+    position: absolute;
+  }
+  
+  .bow2:before, .bow2:after {
+    content:"";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 3px solid yellow;
+    border-radius:50%;
+    top:-14px;
+  }
+  
+  .bow2:before {
+    transform: skew(20deg, 10deg);
+    left:2px;
+  }
+  
+  .bow2:after {
+    transform: skew(-20deg,-10deg);
+    left:15px;
+  }
+  .bow3 {
+    position: absolute;
+  }
+  
+  .bow3:before, .bow3:after {
+    content:"";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: 3px solid green;
+    border-radius:50%;
+    top:-14px;
+  }
+  
+  .bow3:before {
+    transform: skew(20deg, 10deg);
+    left:2px;
+  }
+  
+  .bow3:after {
+    transform: skew(-20deg,-10deg);
+    left:15px;
+  }
